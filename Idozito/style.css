@@ -1,0 +1,157 @@
+#kor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px black solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transform-origin:top left;
+    transform: translate(-50%, -50%);
+    transition: 1s linear;
+    background-image: url(sun.png);
+    background-size:cover;
+    background-position: 50%;
+
+}
+
+#potty{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(mars.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 1s linear;
+}
+
+#szoveg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+}
+
+body{
+    background-image: url(space.jpeg);
+    background-size: cover;
+}
+
+#pause{
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#pause:hover{
+    color: green;
+    border-color: green;
+    cursor: pointer;
+}
+
+#pause::selection{
+    background-color: transparent;
+}
+
+#kor2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px black solid;
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    transform-origin:top left;
+    transform: translate(-50%, -50%);
+    transition: 1s linear;
+}
+
+#potty2{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    transition: 1s linear;
+    /*transform: rotate(0deg);*/
+}
+
+#kor3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px black solid;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    transform-origin:top left;
+    transform: translate(-50%, -50%);
+    transition: 1s linear;
+}
+
+#potty3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(jupiter.png);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: 1s linear;
+    /*transform: rotate(0deg);*/
+}
+
+#kor4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px black solid;
+    height: 640px;
+    width: 640px;
+    border-radius: 50%;
+    transform-origin:top left;
+    transform: translate(-50%, -50%);
+    transition: 1s linear;
+}
+
+#potty4{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(uranus.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 1s linear;
+    /*transform: rotate(0deg);*/
+}
+
